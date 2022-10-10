@@ -62,7 +62,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let favoritesViewController = FavoritesViewController()
         
         
-        podcastViewController.tabBarItem = UITabBarItem(title: "Podcast", image: UIImage(systemName: "beats.headphones"), tag: 0)
+        podcastViewController.tabBarItem = UITabBarItem(title: "Podcast", image: UIImage(systemName: "waveform"), tag: 0)
         ebookViewController.tabBarItem = UITabBarItem(title: "Ebook", image: UIImage(systemName: "book"),tag: 1)
         movieViewController.tabBarItem = UITabBarItem(title: "Movie", image: UIImage(systemName: "popcorn"),tag: 2)
         softwareViewController.tabBarItem = UITabBarItem(title: "Software", image: UIImage(systemName: "desktopcomputer.and.arrow.down"),tag: 3)
