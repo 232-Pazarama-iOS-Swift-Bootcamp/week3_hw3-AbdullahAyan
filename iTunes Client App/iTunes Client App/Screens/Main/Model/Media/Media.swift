@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Media: Codable{
+class Media: Codable{
+    
     let context: String?
     let artistName: String?
     let trackName: String?

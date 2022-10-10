@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Response: Codable {
+struct Response: Decodable {
     let resultCount: Int?
     let results: [Media]?
 }

@@ -80,7 +80,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         
         let tabBarController = UITabBarController()
-        tabBarController.viewControllers = [podcastNavigationController,ebookNavigationController,movieNavigationController,softwareNavigationController,musicNavigationController,favoritesNavigationController]
+        tabBarController.viewControllers = [podcastNavigationController,ebookNavigationController,movieNavigationController,softwareNavigationController,musicNavigationController]
         
         window.rootViewController = tabBarController
         window.makeKeyAndVisible()

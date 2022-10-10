@@ -10,6 +10,7 @@
 		3D0AC1F628EF1413003231E2 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0AC1F528EF1413003231E2 /* FavoritesViewController.swift */; };
 		3DBF769528F2FC3200110363 /* database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF769328F2FC3200110363 /* database.xcdatamodeld */; };
 		3DBF769828F2FE7800110363 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF769728F2FE7800110363 /* Database.swift */; };
+		3DBF769A28F337BE00110363 /* DatabaseMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF769928F337BE00110363 /* DatabaseMedia.swift */; };
 		ED11A83728E99D060036F7DE /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11A83428E99D060036F7DE /* ErrorResponse.swift */; };
 		ED11A83828E99D060036F7DE /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11A83528E99D060036F7DE /* DataRequest.swift */; };
 		ED11A83928E99D060036F7DE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11A83628E99D060036F7DE /* HTTPMethod.swift */; };
@@ -34,6 +35,7 @@
 		3D0AC1F528EF1413003231E2 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		3DBF769428F2FC3200110363 /* database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = database.xcdatamodel; sourceTree = "<group>"; };
 		3DBF769728F2FE7800110363 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		3DBF769928F337BE00110363 /* DatabaseMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseMedia.swift; sourceTree = "<group>"; };
 		ED11A83428E99D060036F7DE /* ErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
 		ED11A83528E99D060036F7DE /* DataRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
 		ED11A83628E99D060036F7DE /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				3DBF769328F2FC3200110363 /* database.xcdatamodeld */,
 				3DBF769728F2FE7800110363 /* Database.swift */,
+				3DBF769928F337BE00110363 /* DatabaseMedia.swift */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 				ED3F0D9F28E9769A00E21B48 /* DetailViewController.swift in Sources */,
 				ED11A84128E99D2A0036F7DE /* Request.swift in Sources */,
 				ED3F0DA328E976EA00E21B48 /* DetailView.swift in Sources */,
+				3DBF769A28F337BE00110363 /* DatabaseMedia.swift in Sources */,
 				ED11A84428E99D2A0036F7DE /* NetworkService.swift in Sources */,
 				ED180E8A28E8308A001D594F /* Response.swift in Sources */,
 				ED180E8C28E830CE001D594F /* Media.swift in Sources */,
