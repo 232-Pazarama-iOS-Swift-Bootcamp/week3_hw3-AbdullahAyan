@@ -75,8 +75,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let movieNavigationController = UINavigationController(rootViewController: movieViewController)
         let softwareNavigationController = UINavigationController(rootViewController: softwareViewController)
         let musicNavigationController = UINavigationController(rootViewController: musicViewController)
-        
-        let favoritesNavigationController = UINavigationController(rootViewController: favoritesViewController)
 
         
         let tabBarController = UITabBarController()

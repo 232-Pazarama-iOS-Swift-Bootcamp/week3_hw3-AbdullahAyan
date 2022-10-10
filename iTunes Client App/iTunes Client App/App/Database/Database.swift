@@ -31,21 +31,20 @@ class Database{
     
     func deleteItem(media: Media) {
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Favorite")
-        fetchRequest.predicate = NSPredicate(format: "trackName = %@ ", media as! CVarArg )
-        
-        if let result = try? Database.managedContext.fetch(fetchRequest){
-            for item in result {
-                Database.managedContext.delete(item as! NSManagedObject)
+        do{
+            let fetchResults = try Database.managedContext.fetch(fetchRequest)
+            for item in fetchResults as! [NSManagedObject]{
+                if let trackName = item.value(forKey: "trackName") as? String,
+                   trackName == media.trackName {
+                    Database.managedContext.delete(item)
+                    break
+                }
             }
-            
-            do {
-                try Database.managedContext.save()
-                
-            } catch let error {
+        }catch let error{
                 print(error.localizedDescription)
-            }
         }
-    }
+        
+        save()    }
     
     func save() {
         do {

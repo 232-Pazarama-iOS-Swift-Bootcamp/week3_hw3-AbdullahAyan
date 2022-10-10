@@ -73,5 +73,7 @@ final class DetailViewController: UIViewController {
     }
     
     @objc func deleteFavorite() {
+        db.deleteItem(media: media!)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "heart"), style: .done, target: self, action: #selector(addFavorites))
     }
 }
